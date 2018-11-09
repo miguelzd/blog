@@ -10,7 +10,7 @@ $factory->define(App\Post::class, function (Faker $faker) {
         'name' => $title,
         'slug' => str_slug($title),
         'excerpt' => $faker->text(200),
-        'body' => $faker->text(500),
+        'body' => $faker->text(1500),
         'file' => $faker->imageUrl($width = 1200, $height = 400),
         'status' => $faker->randomElement(['DRAFT', 'PUBLISHED']),
     ];

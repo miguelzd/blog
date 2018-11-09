@@ -11,7 +11,7 @@
                     <div class="card-body">
                         <h4 class="card-title">{{ $post->name }}</h4>
                         <p class="card-text">{{ $post->excerpt }}...</p>
-                        <p class="card-text"><small class="text-muted float-lg-right">Creado el: {{ $post->created_at}}</small></p>
+                        <p class="card-text"><small class="text-muted float-lg-right">Publicado el {{ $post->created_at}}</small></p>
                         <a class="btn btn-light" href="{{ route('post', $post->slug ) }}">Leer más</a>
                     </div>
                 </div>
