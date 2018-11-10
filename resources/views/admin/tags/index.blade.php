@@ -8,7 +8,7 @@
                 <div class="card mb-3 shadow-sm mb-1 bg-white rounded">
                     <div class="card-header">
                         <a href="{{ route('tags.create') }}" class="btn btn-primary float-lg-right">Crear</a>
-                        <h3>Lista de etiquetas</h1>
+                        <h3>Lista de etiquetas</h3>
                     </div>
                 </div>
             </div>

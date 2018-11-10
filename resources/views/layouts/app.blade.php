@@ -9,9 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
@@ -94,7 +91,7 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <div class="alert alert-danger">
-                            @foreach ($errors as $error)
+                            @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
                             @endforeach
                         </div>
@@ -107,5 +104,8 @@
         </main>
         
     </div>
+    {{-- Scripts --}}
+    <script src="{{ asset('js/app.js') }}"></script>
+    @yield('scripts')
 </body>
 </html>
