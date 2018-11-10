@@ -96,7 +96,8 @@ class TagController extends Controller
      */
     public function destroy($id)
     {
-        $tag = Tag::find($id)->delete();
-        return back()->with('info', 'Etiqueta '. $tag .' eliminado correctamente');
+        $tag = Tag::find($id);
+        Tag::find($tag->id)->delete();
+        return back()->with('info', 'La etiqueta "'. $tag->name .'" a sido eliminada correctamente');
     }
 }

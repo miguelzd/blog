@@ -76,8 +76,36 @@
         </nav>
 
         <main class="py-4">
+            {{-- Flash message Info --}}
+            @if (session('info'))
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="alert alert-success">
+                                {{ session('info') }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif  
+            {{-- Flash message Error --}}
+            @if (count($errors))
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="alert alert-danger">
+                            @foreach ($errors as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @endif  
+            {{-- Main Content --}}
             @yield('content')
         </main>
+        
     </div>
 </body>
 </html>
