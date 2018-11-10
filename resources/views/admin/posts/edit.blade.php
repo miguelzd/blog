@@ -15,7 +15,8 @@
             <div class="col-md-8 offset-md-2">
                 <div class="card mb-3 shadow-lg mb-5 bg-white rounded">
                     <div class="card-body">
-                        {!! Form::model($post, ['route' => ['posts.update', $post->id], 'method' => 'PUT']) !!}
+                        {!! Form::model($post, ['route' => ['posts.update', $post->id], 
+                                                'method' => 'PUT', 'files' => true ]) !!}
                             @include('admin.posts.partials.form')
                         {!! Form::close() !!}
                     </div>

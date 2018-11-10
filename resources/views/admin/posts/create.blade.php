@@ -15,7 +15,7 @@
             <div class="col-md-8 offset-md-2">
                 <div class="card mb-3 shadow-lg mb-5 bg-white rounded">
                     <div class="card-body">
-                        {!! Form::open(['route' => 'posts.store']) !!}
+                        {!! Form::open(['route' => 'posts.store', 'files' => true ]) !!}
                             @include('admin.posts.partials.form')
                         {!! Form::close() !!}
                     </div>
