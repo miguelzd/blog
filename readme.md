@@ -52,7 +52,7 @@ composer install
 ```
 php artisan key:generate
 ```
-4. Crea la base de datos llamada "**blog**" y configurarla en el archivo "**.env**" del proyecto.
+4. Crea la base de datos llamada "**blog**" en tu servidor **MySQL** y configurarla en el archivo "**.env**" del proyecto.
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -75,7 +75,7 @@ Accede al directorio del proyecto  y ejecuta el servidor de desarrollo desde la 
 Laravel development server started: <http://127.0.0.1:8000>
 ```
 
-**IMPORTANTE:**  Junto con las migraciones se creará un usuario de llamado **Admin** con el cual podrás acceder a las funciones de **CRUD**.
+**IMPORTANTE:**  Junto con las migraciones se creará un usuario  llamado **Admin** con el cual podrás acceder a las funciones de **CRUD**.
 ```
 User: admin@admin.com
 Pass: 123456
