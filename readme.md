@@ -83,6 +83,9 @@ Pass: 123456
  
 
 ## Screenshots
+
+#### Base de datos
+<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/der-blog-min.png"  width="100%">
   
 #### Index
 <img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-1-min.png"  width="60%">
