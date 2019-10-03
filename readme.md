@@ -2,7 +2,7 @@
 </p>
 
 <p  align="center">
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/full-logo-min.png" width="50%"  alt="Logo-Laravel-Collective">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/full-logo-min.png" width="50%"  alt="Logo-Laravel-Collective">
 </p>
 
 </hr>
@@ -85,37 +85,37 @@ Pass: 123456
 ## Screenshots
 
 #### Base de datos - BLOG
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/der-blog-min.png"  width="100%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/der-blog-min.png"  width="100%">
   
 #### Index
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-1-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-1-min.png"  width="60%">
 
 #### Entrada
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-2-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-2-min.png"  width="60%">
 
 #### Login
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-3-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-3-min.png"  width="60%">
 
 #### Lista de Categorías
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-4-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-4-min.png"  width="60%">
 
 #### Lista de Entradas
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-5-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-5-min.png"  width="60%">
 
 #### Lista de Etiquetas
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-6-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-6-min.png"  width="60%">
 
 #### Crear Entrada
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-7-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-7-min.png"  width="60%">
 
 #### Validaciones de Entrada
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-8-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-8-min.png"  width="60%">
 
 #### Validaciones de Etiquetas
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-9-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-9-min.png"  width="60%">
 
 #### Borrado de Categoría
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/cap-10-min.png"  width="60%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/cap-10-min.png"  width="60%">
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
